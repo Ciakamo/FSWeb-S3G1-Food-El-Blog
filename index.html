@@ -18,14 +18,18 @@
       <h1>Food El Blog</h1>
 
       <!-- Navigation -->
-      Ana Sayfa Aperatifler Vegan Yemekler Tatlılar İçecekler
+      <header>
+        <nav>
+          <a>Ana Sayfa Aperatifler Vegan Yemekler Tatlılar İçecekler</a>
+        </nav>
+      </header>
 
       <!-- Image /images/banner.png -->
-      <img src="/images/banner.png" />
+      <img class="container" src="/images/banner.png" />
 
       <!-- Pazarlama başlığı -->
 
-      <h2>Hakkımızda</h2>
+      <h2 class="hakk">Hakkımızda</h2>
       <p>
         Yaygınlaşmış küresel gıda anlayışına göre hamburger; belirli fast food
         zincirlerinin yapım süreçleri ve kullandıkları malzemeler nedeniyle
@@ -38,15 +42,17 @@
       <!-- content -->
 
       <!-- Image /images/yemek_1.jpg -->
-      <img src="/images/yemek_1.jpg" />
+      <img class="content-row" src="/images/yemek_1.jpg" />
       <h3>Yemekler</h3>
-      <p>
-        Bir fırında mantar soslu antrikot Türk mutfağının en özel ve en
-        gösterişli yemeklerinden biri olarak kabul edilir. Bu yemek için dana
-        antrikot özel baharatlarla fırına verilir ve ağızda dağılacak kadar
-        yumuşayarak benzersiz bir deneyim için hazır hale gelir. Yanında sebze
-        sote, mantarlı özel sos ile bu harika şölen tamamlanır.
-      </p>
+      <div class="conten-row">
+        <p>
+          Bir fırında mantar soslu antrikot Türk mutfağının en özel ve en
+          gösterişli yemeklerinden biri olarak kabul edilir. Bu yemek için dana
+          antrikot özel baharatlarla fırına verilir ve ağızda dağılacak kadar
+          yumuşayarak benzersiz bir deneyim için hazır hale gelir. Yanında sebze
+          sote, mantarlı özel sos ile bu harika şölen tamamlanır.
+        </p>
+      </div>
 
       <!-- Image /images/aperatif.jpeg -->
       <img src="/images/aperatif.jpeg" />
@@ -77,8 +83,12 @@
       <!-- footer -->
       <footer>
         <h6>Food El Blog</h6>
-        Ana Sayfa Aperatifler Vegan Yemekler Tatlılar İçecekler @Copyright Food
-        El Blog 2022
+        <nav class="footer-content">
+          <a class="anch"
+            >Ana Sayfa Aperatifler Vegan Yemekler Tatlılar İçecekler</a
+          >
+          <a class="copyright">@Copyright Food El Blog 2022</a>
+        </nav>
       </footer>
     </body>
   </div>
