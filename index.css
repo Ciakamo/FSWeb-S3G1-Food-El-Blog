@@ -4,7 +4,7 @@
 }
 
 h1 {
-  font-family: "Gaegu", cursive;
+  font-family: "Josefin Sans", sans-serif;
   margin: 20px 0;
   text-align: center;
   /*=======  Font size'ı 60px yapın ve text'i ortalayın(center) */
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Gaegu", cursive;
+  font-family: "Josefin Sans", sans-serif;
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Font size'ı 30px yapın*/
@@ -46,6 +46,25 @@ p {
 img {
   border-radius: 10px;
   width: 100%;
+}
+
+.anare {
+  display: relative;
+  background-color: #f5f5f5;
+  height: 300px;
+  width: 100vw;
+}
+
+.anare > img {
+  position: absolute;
+  margin: 55px 110px;
+  width: 500px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.resim {
+  width: 300px;
 }
 
 .content-row {
@@ -89,6 +108,11 @@ img {
   margin-top: 20px;
 }
 
+.adres {
+  text-align: left;
+  line-height: 5px;
+}
+
 .contact-section {
   border-top: 1px dashed black;
   padding: 20px 0;
@@ -111,6 +135,8 @@ footer {
 }
 
 footer .footer-content {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   /*======= width property yaratın. Değerini 750px olarak atayın */
   width: 750px;
@@ -118,11 +144,12 @@ footer .footer-content {
 
 footer .footer-content h3 {
   padding: 0;
-  margin: 20px 0;
+  margin: 20px 50px;
 }
 
 footer nav {
   display: flex;
+  margin-left: 50px;
 }
 
 /*======= Footer'daki anchor tag için aşağıdaki stilleri içeren bir selector yaratın:
@@ -130,7 +157,7 @@ footer nav {
   color: black;
   text-decoration: underline;
 */
-.anch {
+footer a {
   margin: 10px;
   color: black;
   text-decoration: underline;
@@ -148,6 +175,12 @@ footer nav a:hover {
 }
 
 footer .footer-content .copyright {
+  padding: 20px 0;
+  /*======= metni ortalayacak kodu yazın */
+  text-align: center;
+}
+
+.copyright {
   padding: 20px 0;
   /*======= metni ortalayacak kodu yazın */
   text-align: center;
